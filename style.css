@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: grid;
+    grid-template-columns: 10vw 80vw 10vw;
+}
+
+.playerOneControls {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+}
+
+.playerTwoControls {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#canvas1 {
+    width: 80vw;
+    height: 90vh;
+    box-sizing: border-box;
+    margin-top: 5vh;
+    border: 4px solid black;
+    background: linear-gradient(to right, brown, rgb(165, 112, 42), beige);
+    justify-self: center;
+}
